@@ -1,0 +1,4 @@
+#Mon Dec 02 14:14:27 CST 2019
+base.0=G\:\\AndriodProjects\\FileOptLogger\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex

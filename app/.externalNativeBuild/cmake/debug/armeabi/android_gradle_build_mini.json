@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "G:\\AndriodProjects\\FileOptLogger\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Hubery\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build G:\\AndriodProjects\\FileOptLogger\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target clean"
+  ],
+  "libraries": {
+    "native-lib-Debug-armeabi": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Users\\Hubery\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build G:\\AndriodProjects\\FileOptLogger\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target native-lib",
+      "abi": "armeabi",
+      "output": "G:\\AndriodProjects\\FileOptLogger\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi\\libnative-lib.so"
+    }
+  }
+}

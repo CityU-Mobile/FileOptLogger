@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Mon Dec 02 14:14:26 CST 2019
+1.base=G\:\\AndriodProjects\\FileOptLogger\\app\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=inotifywait
+0.set=ASSET
+0.base=G\:\\AndriodProjects\\FileOptLogger\\app\\build\\intermediates\\assets\\debug
+1.path=fuser

@@ -1,0 +1,3 @@
+G:/AndriodProjects/FileOptLogger/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/native-lib.dir
+G:/AndriodProjects/FileOptLogger/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/edit_cache.dir
+G:/AndriodProjects/FileOptLogger/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/rebuild_cache.dir
