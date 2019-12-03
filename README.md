@@ -14,7 +14,7 @@ User's phone mush be rooted because *FileOptLogger* needs root permission to acc
 
 "**Start Collecting**" switch is to create a thread to collect data traces, and  these data will be stored in `/sdcard/fblog` directory.
 
-"**Move Data to DB **" switch is to parse trace files to DB format and stored in database. *FileOptLogger* creates a database in `/data/data/edu.cityu.fileoptlogger/databases` directory, and this database includes two tables(hot_trace_info & cold_trace_info table). hot_trace_info table will store normal data(without file deletion record) and cold_trace_info table will store fully completed data(with file deletion record). 
+"**Move Data to DB**" switch is to parse trace files to DB format and stored in database. *FileOptLogger* creates a database in `/data/data/edu.cityu.fileoptlogger/databases` directory, and this database includes two tables(hot_trace_info & cold_trace_info table). hot_trace_info table will store normal data(without file deletion record) and cold_trace_info table will store fully completed data(with file deletion record). 
 
 "**LOAD LATEST TRACE**" button is to show users with available fully completed data.
 
