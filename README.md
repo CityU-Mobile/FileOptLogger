@@ -22,9 +22,10 @@ User's phone mush be rooted because *FileOptLogger* needs root permission to acc
 
 ### Data Collection
 
-1.  make sure switch "**Start Collecting**" is on, then *FileOptLogger*  will monitor Facebook's cache and files directory.
-2. use Facebook as normal.
-3. switch off "**Start Collecting**", and trace files will be stored in `/sdcard/fblog`.
+1.  Users should clear Facebook's cache & files directory. Users can find the clear button in `settings->apps->Facebook->Storage`. User will find **CLEAR DATA** and **CLEAR CACHE** button. Please click these two buttons to clear data & cache for the first use.
+2.  make sure switch "**Start Collecting**" is on, then *FileOptLogger*  will monitor Facebook's cache and files directory.
+3.  use Facebook as normal.
+4.  switch off "**Start Collecting**", and trace files will be stored in `/sdcard/fblog`.
 
 ### Data Compression
 
