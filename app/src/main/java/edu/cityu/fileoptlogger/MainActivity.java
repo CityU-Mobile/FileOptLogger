@@ -123,12 +123,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-        ViewGroup tableTitle = (ViewGroup) findViewById(R.id.table_title);
-        tableTitle.setBackgroundColor(Color.rgb(177, 173, 172));
-
-        tableListView = (ListView) findViewById(R.id.list);
-
         time_handler = new Handler() {
             @Override
             public void handleMessage(Message msg){
@@ -137,35 +131,11 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        table_mHandler = new Handler() {
-            @Override
-            public void handleMessage(Message msg) {
-                super.handleMessage(msg);
-                Bundle data = msg.getData();
-                BundleSet table = (BundleSet)data.getSerializable("table");
-                List<ColdTraceInfo> list = table.getList();
-
-                TableAdapter adapter = new TableAdapter(context, list);
-                tableListView.setAdapter(adapter);
-            }
-        };
-
         ui_receiver = new UIUpdateReceiver(time_handler, table_mHandler);
         IntentFilter ui_filter = new IntentFilter();
         ui_filter.addAction(Global.RECEIVER_GET_TABLE_ACTION);
         ui_filter.addAction(Global.RECEIVER_LAST_TIME_ACTION);
         registerReceiver(ui_receiver, ui_filter);
-
-        Button load_button = findViewById(R.id.button);
-        load_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AsyncTableUpadter asyncTableUpadter = new AsyncTableUpadter(context, table_mHandler);
-                asyncTableUpadter.execute();
-            }
-        });
-
-
     }
 
     @Override

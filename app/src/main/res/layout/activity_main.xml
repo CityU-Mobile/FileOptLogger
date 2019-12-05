@@ -62,33 +62,7 @@
             android:id="@+id/exdata_switch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Move Data to DB" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Load Latest Trace"/>
-
-        <include
-            layout="@layout/list_item"
-            android:id="@+id/table_title"/>
-
-        <ScrollView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
-
-            <ListView
-                android:id="@+id/list"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
-            </ListView>
-
-        </ScrollView>
-
-
-
-
+            android:text="Compress Trace Files" />
 
     </LinearLayout>
 

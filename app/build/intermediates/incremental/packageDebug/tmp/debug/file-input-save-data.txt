@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Dec 03 01:49:56 CST 2019
+#Thu Dec 05 12:19:35 CST 2019
 4.path=lib/armeabi-v7a/libnative-lib.so
 8.set=NATIVE_RESOURCE
 6.path=lib/x86_64/libnative-lib.so
